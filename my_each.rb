@@ -2,8 +2,9 @@ def my_each(array)
   i = 0 
   
   while i < array.length 
-  
-  
-end
+  yield 
   i += 1
 end
+
+
+my_each([1,2,3,4])
