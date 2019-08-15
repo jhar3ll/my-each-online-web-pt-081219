@@ -6,7 +6,7 @@ def my_each(array)
   i += 1
 end
 
-end 
-return array
+ return array
+end
 
 my_each([1,2,3,4])
